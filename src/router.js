@@ -36,7 +36,12 @@ const router = new Router({
           name: "CreatorsPage",
           path: "creators",
           component: () => import("@/views/CreatorsPage"),
-        },        
+        },     
+        {
+          name: "PublishersPage",
+          path: "publishers",
+          component: () => import("@/views/PublishersPage"),
+        },            
       ],
     },
     {
